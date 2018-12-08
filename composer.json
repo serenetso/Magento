@@ -60,12 +60,16 @@
     },
     "version": "2.3.0",
     "minimum-stability": "stable",
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com"
         }
-    ],
+    },
     "extra": {
         "magento-force": "override"
     }
