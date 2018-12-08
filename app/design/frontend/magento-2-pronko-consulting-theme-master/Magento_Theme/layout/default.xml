@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="form.subscribe" remove="true" />
+    </body>
+</page>
+
+
+
+
+<!-- <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <link src="https://fonts.googleapis.com/css?family=Creepster" type="url" rel="stylesheet" />
@@ -31,4 +41,4 @@
         <move element="authorization-link" destination="header.other" before="-"/>
         <move element="register-link" destination="header.other" after="my-account-link"/>
     </body>
-</page>
+</page> -->
